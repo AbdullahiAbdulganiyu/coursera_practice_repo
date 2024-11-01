@@ -1,0 +1,36 @@
+/* to style the first letter of each of the list we use the code bellow */
+/* since we are styling a list we use the pseudo-elemnet selector */
+
+li::first-letter{
+    color: coral;
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 1;
+}
+
+/* To remove the bullet point we use */
+ul{
+    list-style-type: none;
+}
+
+/* To highlight the first line we use the pseudo-element */
+
+li::first-line{
+    color: lightseagreen;
+    text-decoration: underline;
+    line-height: 1;
+}
+
+/* To highlght a particular portion selected we use the pseudo-element */
+li::selection{
+    color: brown;
+    background-color: antiquewhite;
+    line-height: 1;
+}
+
+/* To chenge the bulletpoint to a particular thing we use pseudo-elemnent */
+li::marker{
+    color: cornflowerblue;
+    content: '<>';
+    font-size: 1.1em;
+}
