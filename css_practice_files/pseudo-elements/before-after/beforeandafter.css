@@ -1,0 +1,17 @@
+/* To add content before and after an element we use the pseudo-element */
+#tips::before{
+    background: darkkhaki;
+    color: darkslategray;
+    content: "Tips";
+    padding-left: 3px;
+    padding-right: 5px;
+    border-radius: 10%;
+}
+
+#tips::after{
+    background: darkkhaki;
+    color: darkslategray;
+    content: " ! !";
+    padding-right: 5px;
+    border-radius: 20%;
+}
